@@ -71,11 +71,12 @@ export function LoginScreen() {
                   color={colors.primaryBlack}
                 />
                 <TextInput
-                  style={formStyles.compactInput}
-                  onChangeText={onChangeEmail}
-                  keyboardType="email-address"
-                  placeholder="E-mail"
                   value={email}
+                  placeholder="E-mail"
+                  autoCapitalize="none"
+                  keyboardType="email-address"
+                  onChangeText={onChangeEmail}
+                  style={formStyles.compactInput}
                 />
               </View>
 
@@ -87,12 +88,13 @@ export function LoginScreen() {
                     color={colors.primaryBlack}
                   />
                   <TextInput
-                    style={formStyles.compactInput}
-                    onChangeText={onChangePassword}
-                    secureTextEntry={true}
                     maxLength={6}
                     value={password}
                     placeholder="Senha"
+                    autoCapitalize="none"
+                    secureTextEntry={true}
+                    style={formStyles.compactInput}
+                    onChangeText={onChangePassword}
                   />
                 </View>
               </View>
