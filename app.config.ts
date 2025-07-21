@@ -18,11 +18,13 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     backgroundColor: '#000',
   },
   updates: {
+    enabled: true,
     fallbackToCacheTimeout: 0,
   },
   assetBundlePatterns: ['**/*'],
   ios: {
     supportsTablet: true,
+    buildConfiguration: 'Release',
     bundleIdentifier: 'com.company.yourapp',
     // config: {
     //   googleMapsApiKey: process.env.GCP_IOS_KEY,

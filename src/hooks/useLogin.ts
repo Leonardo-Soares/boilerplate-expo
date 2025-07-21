@@ -1,6 +1,6 @@
 import { Alert } from 'react-native';
 import { api } from '@services/axios';
-import { useMutation } from 'react-query';
+import { useMutation } from '@tanstack/react-query';
 import { useAuth } from './useAuth';
 import { setToken } from '@storage/token';
 
