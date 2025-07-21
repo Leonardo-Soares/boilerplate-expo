@@ -40,6 +40,23 @@ This project is a boilerplate for an Expo-managed React Native application.
   npm run web
   ```
 
+- **Prebuild Android:**
+```
+npx expo prebuild --platform android
+````
+
+- **Prebuild IOS:**
+```
+npx expo prebuild --platform ios
+````
+
+- **Prebuild (Android e IOS):**
+```
+npx expo prebuild
+````
+
+
+
 ## Dependencies Overview
 
 The project uses a range of dependencies including:

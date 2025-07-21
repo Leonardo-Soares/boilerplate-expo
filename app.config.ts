@@ -24,8 +24,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   assetBundlePatterns: ['**/*'],
   ios: {
     supportsTablet: true,
-    buildConfiguration: 'Release',
-    bundleIdentifier: 'com.company.yourapp',
+    bundleIdentifier: 'com.company.yourapp.teste',
     // config: {
     //   googleMapsApiKey: process.env.GCP_IOS_KEY,
     // },
@@ -52,7 +51,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   plugins: ['expo-font'],
   extra: {
     eas: {
-      // projectId: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+      projectId: "1c6ac840-b2f6-4822-9f14-4a1f67457dff"
     },
   },
 });
