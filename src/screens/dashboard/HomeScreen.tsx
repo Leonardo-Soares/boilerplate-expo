@@ -3,7 +3,7 @@ import { getCopyright } from '@services/fetchCopyright';
 import { getToken } from '@storage/token';
 import { useEffect, useState } from 'react';
 import { View, Text, ScrollView } from 'react-native';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 
 export function HomeScreen() {
   const { data } = useQuery('getCopyright', getCopyright);

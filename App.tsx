@@ -7,7 +7,7 @@ import {
   Inter_800ExtraBold,
 } from '@expo-google-fonts/inter';
 import Loading from './src/components/Loading';
-import { QueryClient, QueryClientProvider } from 'react-query';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Routes } from './src/routes';
 import { colors } from '@theme/colors';
 import { NotifierWrapper } from 'react-native-notifier';
